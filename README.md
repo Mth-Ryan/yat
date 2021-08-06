@@ -1,0 +1,2 @@
+# yat
+Yes, another theme.
