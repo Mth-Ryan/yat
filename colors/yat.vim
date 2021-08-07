@@ -155,10 +155,15 @@ let g:terminal_color_15 = s:gray
 
 " Specific languages {{{
 
-" TODO: Finish html and css syntax
-
 " Html Highlighting
 hi! link htmlTagName Character
+
+" Css Highlighting
+hi! link cssProp         Type
+hi! link cssTagName      Character
+hi! link cssClassName    Keyword
+hi! link cssClassNameDot Keyword
+hi! link cssIdentifier   Number
 
 " Markdown Highlighting
 exe 'hi mkdCode guifg='s:purple
