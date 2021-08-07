@@ -136,21 +136,21 @@ exe 'hi Type         guifg='s:blue'    gui=NONE'
 " Terminal Mode {{{
 
 let g:terminal_color_0  = s:bg
-let g:terminal_color_1  = s:warn
-let g:terminal_color_2  = s:orange
-let g:terminal_color_3  = s:bg4
-let g:terminal_color_4  = s:fg
+let g:terminal_color_1  = s:red
+let g:terminal_color_2  = s:green
+let g:terminal_color_3  = s:orange
+let g:terminal_color_4  = s:blue
 let g:terminal_color_5  = s:purple
-let g:terminal_color_6  = s:fg3
-let g:terminal_color_7  = s:green
+let g:terminal_color_6  = s:cyan
+let g:terminal_color_7  = s:fg2
 let g:terminal_color_8  = s:bg4
-let g:terminal_color_9  = s:error
-let g:terminal_color_10 = s:fg2
-let g:terminal_color_11 = s:fg
+let g:terminal_color_9  = s:red
+let g:terminal_color_10 = s:green
+let g:terminal_color_11 = s:orange
 let g:terminal_color_12 = s:blue
-let g:terminal_color_13 = s:red
-let g:terminal_color_14 = s:fg4
-let g:terminal_color_15 = s:gray
+let g:terminal_color_13 = s:purple
+let g:terminal_color_14 = s:cyan
+let g:terminal_color_15 = s:fg
 
 " }}}
 
