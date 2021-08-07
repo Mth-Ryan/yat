@@ -42,8 +42,6 @@ let s:warn     = "#f0c674"
 
 " UI {{{
 
-" TODO: Selection, Pmenu Scrollbar and Diff colors setup
-
 exe 'hi Normal       guifg='s:fg'       guibg='s:bg
 exe 'hi NonText      guifg='s:bg4'      guibg='s:bg
 exe 'hi EndOfBuffer  guifg='s:bg4'      guibg='s:bg
@@ -55,20 +53,23 @@ exe 'hi ColorColumn                     guibg='s:bg4
 exe 'hi LineNr       guifg='s:bg4'      guibg=NONE'
 exe 'hi SignColumn                      guibg=NONE'
 exe 'hi VertSplit    guifg='s:bg'       guibg='s:bg4
+exe 'hi Visual       guifg='s:fg'       guibg='s:bg4
 exe 'hi MatchParen   guifg='s:error'                      gui=underline'
 exe 'hi StatusLine   guifg='s:fg2'      guibg='s:bg3'     gui=bold'
 exe 'hi Pmenu        guifg='s:fg'       guibg='s:bg2
 exe 'hi PmenuSel     guifg='s:bg'       guibg='s:blue
+exe 'hi PmenuSbar                       guibg='s:bg3
+exe 'hi PmenuThumb                      guibg='s:bg4
 exe 'hi IncSearch    guifg='s:bg2'      guibg='s:fg
 exe 'hi Search       guifg='s:error'    guibg='s:bg'      gui=bold,underline'
 exe 'hi Directory    guifg='s:red
 exe 'hi Folded       guifg='s:fg4'      guibg='s:bg
 exe 'hi WildMenu     guifg='s:green'    guibg='s:bg
 
-exe 'hi DiffAdd      guifg=#fafafa      guibg=#123d0f     gui=bold'
-exe 'hi DiffDelete   guibg='s:bg4                         
-exe 'hi DiffChange   guibg=#151b3c      guifg=#fafafa'    
-exe 'hi DiffText     guifg=#ffffff      guibg=#ff0000     gui=bold'
+exe 'hi DiffAdd      guifg='s:green'    guibg='s:bg'      gui=bold'
+exe 'hi DiffDelete   guifg='s:error'    guibg='s:bg
+exe 'hi DiffChange   guifg='s:warn'     guibg='s:bg'      gui=bold'
+exe 'hi DiffText     guifg='s:red'      guibg='s:bg'      gui=bold'
 exe 'hi ErrorMsg     guifg='s:error'    guibg='s:bg'      gui=bold'
 exe 'hi WarningMsg   guifg='s:warn'     guibg='s:bg
 exe 'hi Label        guifg='s:fg        
