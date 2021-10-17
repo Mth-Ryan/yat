@@ -39,7 +39,7 @@ function setup()
     if vim.fn.exists("syntax_on") then vim.cmd("syntax reset") end
     vim.o.background    = "dark"
     vim.o.termguicolors = true
-    vim.o.colors_name   = "yat"
+    vim.g.colors_name   = "yat"
 
     local editor = theme.loadEditor()
     local syntax = theme.loadSyntax()
