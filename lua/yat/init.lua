@@ -55,7 +55,7 @@ function setup()
     for group, options in pairs(lspIcons) do
         local icon = options.text
         local hl   = options.texthl
-        local sg = 'sign define' .. group .. "text=" .. icon .. "texthl=" .. hl
+        local sg = "sign define " .. group .. " text=" .. icon .. " " .. " texthl=" .. hl
 
         vim.cmd(sg)
     end
