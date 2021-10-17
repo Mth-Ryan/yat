@@ -1,3 +1,19 @@
+--[[
+
+__   __    _
+\ \ / /_ _| |_
+ \ V / _` | __|
+  | | (_| | |_
+  |_|\__,_|\__|
+
+
+File:        init.lua
+Author:      Mateus Ryan <mthryan@protonmail.com>
+Description: Yes, another theme
+Licence:     MIT
+
+--]]
+
 local theme = require("yat.theme")
 
 function highlight(group, color)
