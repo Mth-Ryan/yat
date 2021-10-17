@@ -104,8 +104,45 @@ theme.loadLsp = function()
         LspDiagnosticsUnderlineHint          = { fg = colors.pur, },
         LspDiagnosticsFloatingHint           = { fg = colors.pur, },
         LspDiagnosticsSignHint               = { fg = colors.pur, },
+        DiagnosticVirtualTextError           = { fg = colors.err, },
+        DiagnosticUnderlineError             = { fg = colors.err, },
+        DiagnosticFloatingError              = { fg = colors.err, },
+        DiagnosticSignError                  = { fg = colors.err, },
+        DiagnosticVirtualTextWarn            = { fg = colors.war, },
+        DiagnosticUnderlineWarn              = { fg = colors.war, },
+        DiagnosticFloatingWarn               = { fg = colors.war, },
+        DiagnosticSignWarn                   = { fg = colors.war, },
+        DiagnosticVirtualTextInfo            = { fg = colors.blu, },
+        DiagnosticUnderlineInfo              = { fg = colors.blu, },
+        DiagnosticFloatingInfo               = { fg = colors.blu, },
+        DiagnosticSignInfo                   = { fg = colors.blu, },
+        DiagnosticVirtualTextHint            = { fg = colors.pur, },
+        DiagnosticUnderlineHint              = { fg = colors.pur, },
+        DiagnosticFloatingHint               = { fg = colors.pur, },
+        DiagnosticSignHint                   = { fg = colors.pur, },
     }
     return lsp
+end
+
+theme.loadLspIcons = function() 
+    local lsp = {
+        LspDiagnosticsSignError = {
+            text = "", 
+            texthl = "LspDiagnosticsDefaultError"
+        },
+        LspDiagnosticsSignWarning = {
+            text = "", 
+            texthl = "LspDiagnosticsDefaultWarning"
+        },
+        LspDiagnosticsSignInformation = {
+            text = "כֿ", 
+            texthl = "LspDiagnosticsDefaultInformation"
+        },
+        LspDiagnosticsSignError = {
+            text = "",
+            texthl = "LspDiagnosticsDefaultHint"
+        },
+    }
 end
 
 theme.loadTerminal = function ()
