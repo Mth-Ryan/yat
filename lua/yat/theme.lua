@@ -143,6 +143,7 @@ theme.loadLspIcons = function()
             texthl = "LspDiagnosticsDefaultHint"
         },
     }
+    return lsp
 end
 
 theme.loadTerminal = function ()
