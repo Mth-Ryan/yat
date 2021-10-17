@@ -71,7 +71,7 @@ theme.loadSyntax = function()
         Special      = { fg = colors.fg1,                  },
         Identifier   = { fg = colors.fg1, st = "italic"    },
         Keyword      = { fg = colors.ora,                  },
-        Statlement   = { fg = colors.ora,                  },
+        Statement    = { fg = colors.ora,                  },
         Tag          = { fg = colors.ora,                  },
         PreProc      = { fg = colors.pur,                  },
         Define       = { fg = colors.pur,                  },
