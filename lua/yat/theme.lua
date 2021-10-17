@@ -27,6 +27,7 @@ theme.loadEditor = function()
         CursorLine   = {                  bg = colors.bg2, },
         CursorColumn = {                  bg = colors.bg4, },
         ColorColumn  = {                  bg = colors.bg4, },
+        SignColumn   = {                                   },
         LineNr       = { fg = colors.bg4,                  },
         VertSplit    = { fg = colors.bg1, bg = colors.bg4, },
         Visual       = { fg = colors.fg1, bg = colors.bg4, },
