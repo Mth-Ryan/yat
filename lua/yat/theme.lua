@@ -23,12 +23,12 @@ theme.loadEditor = function()
         NonText      = { fg = colors.bg4, bg = colors.bg1, },
         EndOfBuffer  = { fg = colors.bg4, bg = colors.bg1, },
         Cursor       = { fg = colors.bg1, bg = colors.fg1, },
-        CursorLineNr = { fg = colors.gre,                  },
+        CursorLineNr = { fg = colors.cya,                  },
         CursorLine   = {                  bg = colors.bg2, },
         CursorColumn = {                  bg = colors.bg4, },
         ColorColumn  = {                  bg = colors.bg4, },
         SignColumn   = {                                   },
-        LineNr       = { fg = colors.bg4,                  },
+        LineNr       = { fg = colors.gra,                  },
         VertSplit    = { fg = colors.bg1, bg = colors.bg4, },
         Visual       = { fg = colors.fg1, bg = colors.bg4, },
         MatchParen   = { fg = colors.err, st = "underline" },
@@ -41,8 +41,8 @@ theme.loadEditor = function()
         Search       = { fg = colors.err, st = "underline" },
         Directory    = { fg = colors.red,                  },
         Folded       = { fg = colors.fg4,                  },
-        WildMenu     = { fg = colors.gre,                  },
-        DiffAdd      = { fg = colors.gre, st = "underline" },
+        WildMenu     = { fg = colors.cya,                  },
+        DiffAdd      = { fg = colors.cya, st = "underline" },
         DiffDelete   = { fg = colors.err,                  },
         DiffChange   = { fg = colors.war, st = "bold"      },
         DiffText     = { fg = colors.red, st = "bold"      },
@@ -60,24 +60,24 @@ theme.loadSyntax = function()
         Todo         = { fg = colors.cya, st = "bold"      },
         Underlined   = {                  st = "underline" },
         Comment      = { fg = colors.gra,                  },
-        Type         = { fg = colors.blu,                  },
+        Type         = { fg = colors.pur,                  },
         Character    = { fg = colors.red,                  },
-        String       = { fg = colors.gre,                  },
-        Conditional  = { fg = colors.red,                  },
-        Repeat       = { fg = colors.red,                  },
-        Constant     = { fg = colors.Cya,                  },
-        Float        = { fg = colors.Cya,                  },
-        Number       = { fg = colors.Cya,                  },
-        Function     = { fg = colors.fg1,                  },
+        String       = { fg = colors.cya,                  },
+        Conditional  = { fg = colors.blu,                  },
+        Repeat       = { fg = colors.blu,                  },
+        Constant     = { fg = colors.cya,                  },
+        Float        = { fg = colors.cya,                  },
+        Number       = { fg = colors.cya,                  },
+        Function     = { fg = colors.fg1, st = "italic"    },
         Special      = { fg = colors.fg1,                  },
-        Identifier   = { fg = colors.fg1, st = "italic"    },
-        Keyword      = { fg = colors.ora,                  },
-        Statement    = { fg = colors.ora,                  },
-        Tag          = { fg = colors.ora,                  },
-        PreProc      = { fg = colors.pur,                  },
+        Identifier   = { fg = colors.fg1,                  },
+        Keyword      = { fg = colors.pik,                  },
+        Statement    = { fg = colors.pik,                  },
+        Tag          = { fg = colors.pik,                  },
+        PreProc      = { fg = colors.yel,                  },
         Define       = { fg = colors.pur,                  },
-        Operator     = { fg = colors.pur,                  },
-        StorageClass = { fg = colors.Pur, st = "italic"    },
+        Operator     = { fg = colors.pik,                  },
+        StorageClass = { fg = colors.Pur,                  },
     }
     return syntax
 end
@@ -127,19 +127,19 @@ end
 theme.loadLspIcons = function() 
     local lsp = {
         LspDiagnosticsSignError = {
-            text = "", 
+            text = "", 
             texthl = "LspDiagnosticsDefaultError"
         },
         LspDiagnosticsSignWarning = {
-            text = "", 
+            text = "", 
             texthl = "LspDiagnosticsDefaultWarning"
         },
         LspDiagnosticsSignInformation = {
-            text = "כֿ", 
+            text = "", 
             texthl = "LspDiagnosticsDefaultInformation"
         },
         LspDiagnosticsSignError = {
-            text = "",
+            text = "",
             texthl = "LspDiagnosticsDefaultHint"
         },
     }
@@ -149,16 +149,16 @@ end
 theme.loadTerminal = function ()
   vim.g.terminal_color_0  = colors.bg1
   vim.g.terminal_color_1  = colors.red
-  vim.g.terminal_color_2  = colors.gre
-  vim.g.terminal_color_3  = colors.org
+  vim.g.terminal_color_2  = colors.cya
+  vim.g.terminal_color_3  = colors.pik
   vim.g.terminal_color_4  = colors.blu
   vim.g.terminal_color_5  = colors.pur
   vim.g.terminal_color_6  = colors.cya
   vim.g.terminal_color_7  = colors.fg2
   vim.g.terminal_color_8  = colors.bg4
   vim.g.terminal_color_9  = colors.red
-  vim.g.terminal_color_10 = colors.gre
-  vim.g.terminal_color_11 = colors.ora
+  vim.g.terminal_color_10 = colors.cya
+  vim.g.terminal_color_11 = colors.pik
   vim.g.terminal_color_12 = colors.blu
   vim.g.terminal_color_13 = colors.pur
   vim.g.terminal_color_14 = colors.cya
