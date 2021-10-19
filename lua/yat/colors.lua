@@ -26,10 +26,10 @@ local colors = {
     yel = "#fecc86",
     pik = "#EF46B6",
     pur = "#a6adef",
-    red = "#BF5151",
+    red = "#e72a5a",
     gra = "#525863",
     blu = "#5A92C9",
-    cya = "#6EDAB1",
+    cya = "#65dca2",
     err = "#c13535",
     war = "#f0c674",
 }
