@@ -60,22 +60,22 @@ theme.loadSyntax = function()
         Todo         = { fg = colors.blu, st = "bold"      },
         Underlined   = {                  st = "underline" },
         Comment      = { fg = colors.gra,                  },
-        Type         = { fg = colors.pur,                  },
-        Character    = { fg = colors.cya,                  },
-        String       = { fg = colors.cya,                  },
-        Conditional  = { fg = colors.pik,                  },
-        Repeat       = { fg = colors.pik,                  },
-        Constant     = { fg = colors.blu,                  },
-        Float        = { fg = colors.blu,                  },
-        Number       = { fg = colors.blu,                  },
+        Type         = { fg = colors.cya,                  },
+        Character    = { fg = colors.gre,                  },
+        String       = { fg = colors.gre,                  },
+        Conditional  = { fg = colors.pur,                  },
+        Repeat       = { fg = colors.pur,                  },
+        Constant     = { fg = colors.org,                  },
+        Float        = { fg = colors.org,                  },
+        Number       = { fg = colors.org,                  },
         Function     = { fg = colors.fg1, st = "italic"    },
         Special      = { fg = colors.fg1,                  },
         Identifier   = { fg = colors.fg1,                  },
-        Keyword      = { fg = colors.pik,                  },
-        Statement    = { fg = colors.pik,                  },
-        Tag          = { fg = colors.pik,                  },
+        Keyword      = { fg = colors.blu,                  },
+        Statement    = { fg = colors.blu,                  },
+        Tag          = { fg = colors.blu,                  },
         PreProc      = { fg = colors.yel,                  },
-        Define       = { fg = colors.pur,                  },
+        Define       = { fg = colors.yel,                  },
         Operator     = { fg = colors.red,                  },
         StorageClass = { fg = colors.Pur,                  },
     }
@@ -149,16 +149,16 @@ end
 theme.loadTerminal = function ()
   vim.g.terminal_color_0  = colors.bg1
   vim.g.terminal_color_1  = colors.red
-  vim.g.terminal_color_2  = colors.cya
-  vim.g.terminal_color_3  = colors.pik
+  vim.g.terminal_color_2  = colors.gre
+  vim.g.terminal_color_3  = colors.yel
   vim.g.terminal_color_4  = colors.blu
   vim.g.terminal_color_5  = colors.pur
   vim.g.terminal_color_6  = colors.cya
   vim.g.terminal_color_7  = colors.fg2
   vim.g.terminal_color_8  = colors.bg4
   vim.g.terminal_color_9  = colors.red
-  vim.g.terminal_color_10 = colors.cya
-  vim.g.terminal_color_11 = colors.pik
+  vim.g.terminal_color_10 = colors.gre
+  vim.g.terminal_color_11 = colors.yel
   vim.g.terminal_color_12 = colors.blu
   vim.g.terminal_color_13 = colors.pur
   vim.g.terminal_color_14 = colors.cya
