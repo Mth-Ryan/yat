@@ -82,6 +82,19 @@ theme.loadSyntax = function()
     return syntax
 end
 
+theme.loadSpecific = function()
+    local syntax = {
+        -- Scheme
+        schemeLibrarySyntax = { fg = colors.yel },
+        schemeSyntaxSyntax  = { fg = colors.yel },
+        schemeFunction      = { fg = colors.red },
+        schemeQuote         = { fg = colors.pur },
+        schemeQuasiquote    = { fg = colors.pur },
+        schemeData          = { fg = colors.pur },
+    }
+    return syntax
+end
+
 theme.loadLsp = function()
     local lsp = {
         LspDiagnosticsDefaultError           = { fg = colors.err, },

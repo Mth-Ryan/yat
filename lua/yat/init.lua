@@ -41,12 +41,14 @@ function setup()
     vim.o.termguicolors = true
     vim.g.colors_name   = "yat"
 
-    local editor = theme.loadEditor()
-    local syntax = theme.loadSyntax()
-    local lsp    = theme.loadLsp()
+    local editor   = theme.loadEditor()
+    local syntax   = theme.loadSyntax()
+    local specific = theme.loadSpecific()
+    local lsp      = theme.loadLsp()
 
     tableHighlight(editor)
     tableHighlight(syntax)
+    tableHighlight(specific)
     tableHighlight(lsp)
 
     theme.loadTerminal()
