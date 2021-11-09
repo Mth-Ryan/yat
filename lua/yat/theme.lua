@@ -29,7 +29,7 @@ theme.loadEditor = function()
         ColorColumn  = {                  bg = colors.bg4, },
         SignColumn   = {                                   },
         LineNr       = { fg = colors.gra,                  },
-        VertSplit    = { fg = colors.bg1, bg = colors.bg4, },
+        VertSplit    = { fg = colors.fg1, bg = colors.bg1, },
         Visual       = { fg = colors.fg1, bg = colors.bg4, },
         MatchParen   = { fg = colors.err, st = "underline" },
         StatusLine   = { fg = colors.fg2, bg = colors.bg3, },
