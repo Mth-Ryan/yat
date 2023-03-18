@@ -29,10 +29,11 @@ theme.loadEditor = function()
         ColorColumn  = {                  bg = colors.bg4, },
         SignColumn   = {                                   },
         LineNr       = { fg = colors.gra,                  },
-        VertSplit    = { fg = colors.fg1, bg = colors.bg1, },
+        VertSplit    = { fg = colors.bg2, bg = colors.non, },
         Visual       = { fg = colors.fg1, bg = colors.bg4, },
         MatchParen   = { fg = colors.err, st = "underline" },
-        StatusLine   = { fg = colors.fg2, bg = colors.bg3, },
+        StatusLine   = { fg = colors.fg2, bg = colors.non, },
+        StatusLineNC = { bg = colors.non, st = "NONE"      },
         Pmenu        = { fg = colors.fg2, bg = colors.bg2, },
         PmenuSel     = { fg = colors.bg1, bg = colors.blu, },
         PmenuSbar    = {                  bg = colors.bg3, },
@@ -48,6 +49,9 @@ theme.loadEditor = function()
         DiffText     = { fg = colors.red, st = "bold"      },
         ErrorMsg     = { fg = colors.err, st = "bold"      },
         WarningMsg   = { fg = colors.war,                  },
+        NvimTreeFolderName       = { fg = colors.fg2, },
+        NvimTreeEmptyFolderName  = { fg = colors.fg2, },
+        NvimTreeOpenedFolderName = { fg = colors.fg2, },
     }
     return ui
 end

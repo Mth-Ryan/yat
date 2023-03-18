@@ -15,6 +15,7 @@ Licence:     MIT
 --]]
 
 local colors = {
+    non = "NONE",
     bg1 = "#1B1C24",
     fg1 = "#D4D2CF",
     fg2 = "#c3c1be",
